@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 void initialiseGL()
 {
   ngl::NGLInit::instance();
-  glClearColor(0.8,0.8,0.8,1.0);
+  glClearColor(0.5,0.6,0.8,1.0);
 }
 
 void renderGL()
